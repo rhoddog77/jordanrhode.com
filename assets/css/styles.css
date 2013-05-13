@@ -1,0 +1,160 @@
+article {
+	border-top: 1px solid #DDDDDD;
+}
+
+body {
+	font-family: "Open Sans", sans-serif !important;
+	font-size: 18px !important;
+	color:#555555 !important;
+	background-image:url("../images/debut_light.png");
+}
+
+img {
+	padding:20px;
+	margin: auto;
+}
+
+footer {
+	padding-top: 20px;
+	margin-top: 20px;
+	text-align: right;
+	border-top: 1px solid #DDDDDD;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+	font-family: 'Oxygen', sans-serif !important;
+}
+
+.container {
+	width:960px;
+	margin:auto;
+	height:auto;
+}
+
+.content {
+	padding:0 20px 0 20px;
+	border-top: 1px solid #DDDDDD;
+}
+
+.mavuCarousel {
+	width:450px;
+	padding-top: 20px;
+	float:right;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+	margin:auto;
+}
+
+.carousel-caption {
+	background: rgba(0, 0, 0, 0.5) !important;
+}
+
+.selected {
+	background-color: #eeeeee;
+}
+
+.sidebar {
+	padding-top: 50px;
+	text-align: right;
+}
+
+.sidebar ul li {
+	width:110px;
+}
+
+.span10 {
+	padding-top: 25px;
+}
+
+
+.portfolio_item {
+	height: 275px;
+	border-top: 1px solid #DDDDDD;
+	margin-top: -1px;
+}
+
+.portfolio_item img {
+	padding:10px;
+}
+
+.portfolio_text, .portfolio_text_right {
+	padding:10px;
+	width:500px;
+	font-size: 18px;
+}
+
+.portfolio_text_right {
+	float: right;
+}
+
+.img_left {
+	width: 250px;
+	float:left;
+}
+
+.img_right {
+	float:right;
+}
+
+
+
+/*PORTFOLIO PICTURE STYLES*/
+figure { 
+  width: 200px; 
+  background: white;
+  border: 5px solid white; 
+  -webkit-box-shadow: 0 3px 10px #ccc; 
+  -moz-box-shadow: 0 3px 10px #ccc;
+  -webkit-transition: all 0.7s ease; 
+  -moz-transition: all 1s ease;
+  position: relative;
+}
+
+.figA {
+	-webkit-transform: rotate(5deg); 
+  -moz-transform: rotate(5deg);
+  margin-top: 25px;
+}
+.figB {
+	-webkit-transform: rotate(-5deg); 
+  -moz-transform: rotate(-5deg);
+  margin:25px 0 0 25px;
+}
+
+figure img { 
+  width: 100%; /* Scale down */
+}
+
+figure.figA:hover {
+  -webkit-transform: rotate(-1deg); -moz-transform: rotate(1deg);
+  -webkit-box-shadow: 0 3px 10px #666; -moz-box-shadow: 0 3px 10px #666;
+}
+
+figure.figA:focus {
+  outline: none;
+  -webkit-transform: rotate(-3deg) scale(2.5); -moz-transform: rotate(-3deg) scale(2.5);
+   -webkit-box-shadow: 0 3px 10px #666; -moz-box-shadow: 0 3px 10px #666;
+-ms-transform: scale(2.5,2.5);
+  z-index: 9999;
+  position: fixed;
+  top: 40%;
+  left: 40%;
+
+}
+
+figure.figB:hover {
+  -webkit-transform: rotate(1deg); -moz-transform: rotate(-1deg);
+  -webkit-box-shadow: 0 3px 10px #666; -moz-box-shadow: 0 3px 10px #666;
+}
+
+figure.figB:focus {
+  outline: none;
+  -webkit-transform: rotate(3deg) scale(2.5); -moz-transform: rotate(3deg) scale(2.5);
+   -webkit-box-shadow: 0 3px 10px #666; -moz-box-shadow: 0 3px 10px #666;
+-ms-transform: scale(2.5,2.5);
+  z-index: 9999;
+  position: fixed;
+  top: 40%;
+  left: 40%;
+}
